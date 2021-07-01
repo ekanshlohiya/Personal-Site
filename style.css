@@ -1,8 +1,46 @@
+a{
+    text-decoration: none;
+}
 body{
     margin: 0;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Montserrat' ,sans-serif;
 }
+.btn {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 21px;
+    font-weight: 100;
+    padding: 10px;
+    padding:10px 22px 10px 22px;
+    background-color: #09947f;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+ }
+
+ .btn-ghost{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid #09947f 3px;
+    color: #09947f;
+    font-family: Verdana;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 7px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
 .cloud-top{
     text-align: center;
     margin: auto 30% auto 70%;
@@ -15,10 +53,24 @@ body{
     margin: 3% 85% -20px 15%;
     
 }
+.contact-me{
+    margin: 90px auto;
+    width: 50%;
+    line-height: 150%;
+}
 .cp-img{
     float: left;
     width: 25%;
-    margin-right: 30px;
+    margin-right: 35px;
+    position: relative;
+    bottom: 13px;
+}
+.hello{
+    margin: 60px auto 50px auto;
+}
+.hire-info{
+    color: rgba(0, 0, 0, 0.87);
+    margin: 60px auto;
 }
 h1{
     margin-top: 0;
@@ -28,25 +80,44 @@ h1{
     color: #1EAE98;
 }
 h2{
-    color: #1EAE98;
+    color: #27b8a2;
+    font-size: 250%;
+    font-family:  'Quicksand', sans-serif;
 }
 h3{
-    color: #1EAE98;
+    color: #09947f;
+    font-family:  'Quicksand', sans-serif;
+}
+hr{
+    border-top-style: dotted;
+    border-top-width: 6px;
+    width: 60px;
+    color: #b8e2e2;
 }
 .mountain-img{
     position: relative;
     bottom: -5px;
 }
+.profile-img{
+    width: 28%;
+    border-radius: 100px;
+}
 .profile{
     display: inline-block;
+    margin: 90px auto;
     width: 50%;
+    line-height: 150%;
+}
+.profile-info{
+    text-align: center;
 }
 .skills{
     margin: auto auto;
+    margin-top: 90px;
     width: 50%;
 }
 .skill-row{
-    margin: 100px auto;
+    margin: 90px auto;
     text-align: justify;
     line-height: 160%;
 }
@@ -69,6 +140,8 @@ h3{
     background-color: rgb(154, 245, 225);
     border-radius: 13px;
     float: right;
-    margin-left: 30px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 9px;
     width: 25%;
 }
