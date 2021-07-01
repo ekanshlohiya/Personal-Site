@@ -3,40 +3,47 @@ body{
     text-align: center;
     font-family: sans-serif;
 }
-h1{
-    margin-top: 0;
-    width: 25%;
-    margin: 0 auto;
-}
-.title{
-    font-family: 'Sacramento', cursive;
-    font-size: 400%;
-    margin-bottom: -10px;
-    color: #1EAE98;
-}
-.subtitle{
-    font-family: 'Quicksand', sans-serif;
-    color: #233E8B;
-}
-
-.top-container{
-    margin-top: auto;
-    background-color: #c6e7df;
-    height: 300%;
-}
 .cloud-top{
     text-align: center;
     margin: auto 30% auto 70%;
     display: block;
     right: 200px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 50px;
 }
 .cloud-bottom{
-    margin: 1% 85% -20px 15%;
+    margin: 3% 85% -20px 15%;
     
+}
+h1{
+    margin-top: 0;
+    width: 35%;
+    margin: 0 auto;
+    font-size: 500%;
+    color: #1EAE98;
+}
+h2{
+    color: #1EAE98;
+}
+h3{
+    color: #1EAE98;
 }
 .mountain-img{
     position: relative;
     bottom: -5px;
+}
+.subtitle{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+}
+.title{
+    font-family: 'Sacramento', cursive;
+    /* font-size: 400%; */
+    margin-bottom: -15px;
+    margin-top: 70px;
+}
+.top-container{
+    margin-top: auto;
+    background-color: #c6e7df;
+    height: 300%;
 }
