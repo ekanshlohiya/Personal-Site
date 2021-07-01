@@ -15,6 +15,11 @@ body{
     margin: 3% 85% -20px 15%;
     
 }
+.cp-img{
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
 h1{
     margin-top: 0;
     width: 35%;
@@ -32,6 +37,19 @@ h3{
     position: relative;
     bottom: -5px;
 }
+.profile{
+    display: inline-block;
+    width: 50%;
+}
+.skills{
+    margin: auto auto;
+    width: 50%;
+}
+.skill-row{
+    margin: 100px auto;
+    text-align: justify;
+    line-height: 160%;
+}
 .subtitle{
     font-family: 'Quicksand', sans-serif;
     font-size: 26px;
@@ -43,7 +61,14 @@ h3{
     margin-top: 70px;
 }
 .top-container{
-    margin-top: auto;
     background-color: #c6e7df;
     height: 300%;
+    margin-top: auto;
+}
+.web-dev-img{
+    background-color: rgb(154, 245, 225);
+    border-radius: 13px;
+    float: right;
+    margin-left: 30px;
+    width: 25%;
 }
