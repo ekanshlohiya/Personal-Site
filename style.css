@@ -30,6 +30,10 @@ body{
     text-align: center;
     margin-right: 10px;
  }
+ .btn:hover{
+     background-color: #0d7464;
+     transition-duration: 0.5s;
+ }
 
  .btn-ghost{
     -webkit-border-radius: 4px;
@@ -46,6 +50,11 @@ body{
     display: inline-block;
     cursor: pointer;
     text-align: center;
+ }
+ .btn-ghost:hover{
+     border: solid 3px #0d7464;
+     color: #0d7464;
+     transition-duration: 0.5s;
  }
  
 .cloud-top{
@@ -83,6 +92,11 @@ body{
     margin-left: 15px;
     font-weight: 500;
     color: #09947f;
+}
+.footer-link:hover{
+    border-bottom: 2px solid #046657;
+    -webkit-transition: border-bottom 0.1s;
+    transition: border-bottom 0.1s;
 }
 .hello{
     margin: 60px auto 50px auto;
